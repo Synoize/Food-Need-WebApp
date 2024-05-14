@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Snaper Clothing Brand">
+    <meta name="description" content="----------------------">
+    <link rel="stylesheet" href="/index/style.css">
+    <link rel="stylesheet" href="product-items-style-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Product Item's | Snapr</title>
+</head>
+<style>
+    
+</style>
+
+<body>
+    <nav class="dev-box" onclick="devloper()">
+        <li class="dev-char">S</li>
+        <li class="dev-char">Y</li>
+        <li class="dev-char">N</li>
+        <li class="dev-char">O</li>
+        <li class="dev-char">I</li>
+        <li class="dev-char">Z</li>
+        <li class="dev-char">E</li>
+    </nav>
+    <script>
+        function devloper() {
+            window.open("https://www.instagram.com/synoize/");
+        }
+    </script>
+
+
+
+    <header>
+        <nav class="navbar">Quality Food's upto 20% OFF | Snaper</nav>
+
+        <div id="search-menu-dropdown">
+            <nav
+                style=" width:100%; display:flex; justify-content: right; background-color: var(--special-color); padding: 20px;">
+                <i class="fa-regular fa-x fa-sm" onclick="closeDropdown()"
+                    style="color: var(--light-black-color); cursor: pointer;"></i>
+            </nav>
+
+            <form action="#" class="dropdown-search-box">
+                <i class="fa-solid fa-magnifying-glass fa-lg"
+                    style="color: var(--light-black-color); cursor: pointer;"></i>
+                <input type="text" placeholder="Looking for something specific?" " class=" dropdown-search">
+
+                <script>
+                    function openDropdown() {
+                        let dropdown = document.getElementById("search-menu-dropdown");
+                        dropdown.style = " width: 85%;  transition: 0.4s;"
+                    }
+
+                    function closeDropdown() {
+                        let dropdown = document.getElementById("search-menu-dropdown");
+                        dropdown.style = " width: 0%;  transition: 0.4s;"
+                    }
+                </script>
+            </form>
+
+        </div>
+
+        <div id="subHeader1">
+            <form action="#" class="search-box">
+                <i class="fa-solid fa-magnifying-glass fa-lg" onclick="openDropdown()"
+                    style="color: var(--light-black-color); cursor: pointer;"></i>
+                <input type="text" placeholder="Looking for something specific?" class="search">
+
+            </form>
+
+
+            <a href="/index/index.html"><img src="/index/Snapr logo.png" alt="Snapr" id="logo" width="auto"
+                    height="26px" style="object-fit: contain; cursor: pointer;"></a>
+
+            <nav class="user">
+                <a href="/Login Page/login-page.html"><i class="fa-regular fa-user fa-lg"
+                        style="color: var(--light-black-color); cursor: pointer;"></i></a>
+            </nav>
+
+
+        </div>
+
+        <div id="menu-box">
+            <li class="menu">
+                <a href="/index/index.html">
+                    <p class="menu-text">Home</p>
+                </a>
+            </li>
+            <li class="menu">
+                <a href="product-items-page.html">
+                    <p class="menu-text" style="color: var(--special-color);">Order</p>
+                </a>
+            </li>
+
+            <li class="menu" style="border-right: none;">
+                <p class="menu-text">About</p>
+            </li>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="album-section">
+            <img src="/index/album picture 1.jpg" width="100%" class="albumImage" loading="lazy">
+            <img src="/index/album picture 2.jpg" width="100%" class="albumImage" loading="lazy">
+            <img src="/index/album picture 3.jpg" width="100%" class="albumImage" loading="lazy">
+            <img src="/index/album picture 4.jpg" width="100%" class="albumImage" loading="lazy">
+        </section>
+
+        <section class="all-products-section">
+
+            <div class="daily-product-box">
+                <nav class="product-title-box">
+                    <p class="product-title">Daily Need's</p>
+                </nav>
+
+                <div class="product-list">
+                    <nav class="product-box">
+                        <img src="/index/product1.jpg" alt="product" loading="lazy" class="product-image">
+                        <nav class="product-name">Pratah Thali - 49₹ <button id="order-btn">Order</button></nav>
+                    </nav>
+
+
+                    <nav class="product-box">
+                        <img src="/index/6857793.jpg" alt="product" loading="lazy" class="product-image">
+                        <nav class="product-name">Lunch Thali - 89₹ <button id="order-btn">Order</button></nav>
+                    </nav>
+
+
+                    <nav class="product-box">
+                        <img src="/index/product1.jpg" alt="product" loading="lazy" class="product-image">
+                        <nav class="product-name">Dinner Thali - 89₹ <button id="order-btn">Order</button></nav>
+                    </nav>
+
+
+                    <nav class="product-box">
+                        <img src="/index/6857793.jpg" alt="product" loading="lazy" class="product-image">
+                        <nav class="product-name">Jorko Thali - 199₹ <button id="order-btn">Order</button></nav>
+                    </nav>
+                </div>
+            </div>
+
+
+
+            <div class="fast-food-product-box">
+                <nav class="product-title-box">
+                    <p class="product-title">Fast Food's</p>
+                </nav>
+
+                <div class="product-list">
+                    <nav class="product-box">
+                        <img src="/index/product1.jpg" alt="product" loading="lazy" class="product-image">
+                        <nav class="product-name">Pasta - 49₹ Only <button id="order-btn">Order</button></nav>
+                    </nav>
+
+
+                    <nav class="product-box">
+                        <img src="/index/6857793.jpg" alt="product" loading="lazy" class="product-image">
+                        <nav class="product-name">Noodles - 69₹ Only <button id="order-btn">Order</button></nav>
+                    </nav>
+
+
+                    <nav class="product-box">
+                        <img src="/index/product1.jpg" alt="product" loading="lazy" class="product-image">
+                        <nav class="product-name">Momos - 49₹ Only <button id="order-btn">Order</button></nav>
+                    </nav>
+
+
+                    <nav class="product-box">
+                        <img src="/index/6857793.jpg" alt="product" loading="lazy" class="product-image">
+                        <nav class="product-name">Burger - 69₹ Only <button id="order-btn">Order</button></nav>
+                    </nav>
+
+                    <nav class="product-box">
+                        <img src="/index/6857793.jpg" alt="product" loading="lazy" class="product-image">
+                        <nav class="product-name">Paneer Pakora - 99₹ <button id="order-btn">Order</button></nav>
+                    </nav>
+                </div>
+
+            </div>
+
+
+
+
+
+        </section>
+
+        <section class="contect-section">
+            <nav class="contect-title">Contect Us</nav>
+            <div class="contect-box">
+                <form action="" class="contect-form">
+                    <label for="Name" style="padding-top: 0;" class="contect-form-leble">Full Name</label> <input
+                        type="text" name="name" required class="contect-details">
+                    <label for="Mobile No." class="contect-form-leble">Mobile No.</label> <input type="number"
+                        name="number" required class="contect-details">
+                    <label for="Email Id." class="contect-form-leble">Email Id.</label> <input type="email" name="email"
+                        required class="contect-details">
+                    <textarea class="question" name="question?" placeholder="Ask your question?" id="" cols="30"
+                        rows="10" required></textarea>
+
+                    <nav class="srBtnBox">
+                        <button type="submit" style="background-color: var(--special-color);"
+                            class="srBtn">Send</button>
+                        <button type=" reset" style="background-color: var(--light-white-color);"
+                            class="srBtn">clear</button>
+                    </nav>
+                </form>
+
+                <nav class="contect-picture-box">
+                    <img src="album picture 1.jpg" class="contect-picture">
+                </nav>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+    <script src="/index/script.js"></script>
+</body>
+
+</html>

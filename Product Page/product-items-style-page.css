@@ -1,0 +1,128 @@
+/* For All Styles -- START*/
+
+.all-products-section {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--special-color);
+}
+
+.daily-product-box,
+.fast-food-daily-product-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product-list {
+    width: 100%;
+
+
+}
+
+.product-title {
+    border-bottom: 2px solid;
+    padding-bottom: 4px;
+    border-color: var(--light-black-color);
+}
+
+
+/* For All Styles -- END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For Desktop -- START*/
+
+@media (width >=1154px) {
+
+   
+
+
+}
+
+/* For Desktop -- END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For Laptop -- START*/
+
+@media (1154px >=width >=768px) {
+
+   
+
+
+}
+
+/* For Laptop -- END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For Tablet -- START*/
+
+@media screen and (768px >=width >=428px) {
+    .fast-food-product-box{
+        margin-top: -40px;
+       }
+    
+}
+
+/* For Tablet -- END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For Mobile -- START*/
+
+@media screen and (width <=428px) {
+   .fast-food-product-box{
+    margin-top: -50px;
+   }
+
+}
+
+/* For Mobile -- END*/

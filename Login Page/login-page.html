@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Snaper Clothing Brand">
+    <meta name="description" content="----------------------">
+    <link rel="stylesheet" href="/index/style.css">
+    <link rel="stylesheet" href="login-style-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Signup Now | Snaper</title>
+</head>
+<style>
+
+
+</style>
+
+<body>
+    <nav class="dev-box" onclick="devloper()">
+        <li class="dev-char">S</li>
+        <li class="dev-char">Y</li>
+        <li class="dev-char">N</li>
+        <li class="dev-char">O</li>
+        <li class="dev-char">I</li>
+        <li class="dev-char">Z</li>
+        <li class="dev-char">E</li>
+    </nav>
+    <script>
+        function devloper() {
+            window.open("https://www.instagram.com/synoize/");
+        }
+    </script>
+
+    <header>
+        <nav class="navbar">Quality Food's upto 20% OFF | Snaper</nav>
+
+        <div id="search-menu-dropdown">
+            <nav
+                style=" width:100%; display:flex; justify-content: right; background-color: var(--special-color); padding: 20px;">
+                <i class="fa-regular fa-x fa-sm" onclick="closeDropdown()"
+                    style="color: var(--light-black-color); cursor: pointer;"></i>
+            </nav>
+
+            <form action="#" class="dropdown-search-box">
+                <i class="fa-solid fa-magnifying-glass fa-lg"
+                    style="color: var(--light-black-color); cursor: pointer;"></i>
+                <input type="text" placeholder="Looking for something specific?" " class=" dropdown-search">
+
+                <script>
+                    function openDropdown() {
+                        let dropdown = document.getElementById("search-menu-dropdown");
+                        dropdown.style = " width: 85%;  transition: 0.4s;"
+                    }
+
+                    function closeDropdown() {
+                        let dropdown = document.getElementById("search-menu-dropdown");
+                        dropdown.style = " width: 0%;  transition: 0.4s;"
+                    }
+                </script>
+            </form>
+
+        </div>
+
+        <div id="subHeader1">
+            <form action="#" class="search-box">
+                <i class="fa-solid fa-magnifying-glass fa-lg" onclick="openDropdown()"
+                    style="color: var(--light-black-color); cursor: pointer;"></i>
+                <input type="text" placeholder="Looking for something specific?" class="search">
+
+            </form>
+
+
+            <a href="/index/index.html"><img src="/index/Snapr logo.png" alt="Snapr" id="logo" width="auto"
+                    height="26px" style="object-fit: contain; cursor: pointer;"></a>
+
+
+            <nav class="user">
+                <a href="login-page.html"><i class="fa-regular fa-user fa-lg"
+                        style="color: var(--light-black-color); cursor: pointer;"></i></a>
+            </nav>
+
+
+
+        </div>
+
+        <div id="menu-box">
+            <li class="menu">
+                <a href="/index/index.html">
+                    <p class="menu-text" style="color: var(--special-color);">Home</p>
+                </a>
+            </li>
+            <li class="menu">
+                <a href="/Product Page/product-items-page.html">
+                    <p class="menu-text">Order</p>
+                </a>
+            </li>
+
+            <li class="menu" style="border-right: none;">
+                <p class="menu-text">About</p>
+            </li>
+        </div>
+    </header>
+
+    <main>
+        <section class="login-section">
+            <nav class="login-title">login Us</nav>
+            <div class="login-box">
+
+                
+                <nav class="login-picture-box">
+                    <img src="album picture 1.jpg" class="login-picture">
+                </nav>
+
+                
+                <form action="" class="login-form">
+
+                    <label for="Email Id." class="login-form-leble">Email Id.</label> <input type="email" name="email"
+                        required class="login-details">
+
+                    <label for="Password" class="login-form-leble">Password</label> <input type="Password" name="Password"
+                        required class="login-details">
+
+                    <nav class="srBtnBox">
+                        <button type="submit" style="background-color: var(--special-color);"
+                            class="srBtn">login</button>
+                       
+                    </nav>
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+    <script src="/index/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,265 @@
+.search-box {
+    display: none;
+}
+
+footer {
+    margin-top: 0;
+    width: 100%;
+    height: 20vh;
+    background-color: var(--special-color);
+}
+
+
+.login-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    background-color: #f3f3f3;
+    padding: 0 40px;
+}
+
+.login-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 22px;
+    color: var(--light-black-color);
+    cursor: default;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    padding-top: 0;
+
+}
+
+
+.login-form {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.login-details {
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: var(--light-black-color);
+    background-color: var(--special-color);
+    outline: none;
+}
+
+.login-form-leble {
+    padding-top: 18px;
+    line-height: 28px;
+    font-size: 20px;
+    color: var(--light-black-color);
+}
+
+
+
+.srBtnBox {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-top: 30vh;
+ 
+
+}
+
+.srBtn {
+    padding: 8px 34px;
+    border: none;
+    font-size: 16px;
+    color: var(--light-black-color);
+    cursor: pointer;
+
+}
+
+.login-picture-box {
+    width: 40%;
+    overflow: hidden;
+
+}
+
+.login-picture {
+    width: 100%;
+    height: 64vh;
+    object-fit: cover;
+    background-color: var(--after-loading-color);
+}
+
+
+/* For Desktop -- START*/
+
+@media (width >=1154px) {
+    header {
+        background-color: var(--primary-color);
+        margin-top: -160px;
+    }
+
+    .login-section {
+        margin-top: 0;
+        padding: 0 5rem;
+    }
+
+
+    main {
+        margin-top: 160px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+}
+
+/* For Desktop -- END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For Laptop -- START*/
+
+@media (1154px >=width >=768px) {
+    header {
+        background-color: var(--primary-color);
+        margin-top: -160px;
+    }
+
+    .login-section {
+        margin-top: 0;
+        padding: 0 5rem;
+    }
+
+    main {
+        margin-top: 160px;
+
+    }
+
+}
+
+/* For Laptop -- END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For Tablet -- START*/
+
+@media screen and (768px >=width >=428px) {
+    header {
+        background-color: var(--primary-color);
+
+    }
+
+    .login-section {
+        margin-top: 0;
+        padding: 0 3rem;
+    }
+
+    .login-form{
+        width: 100%;
+    }
+
+
+    .login-picture-box {
+       display: none;
+    
+    }
+    
+
+}
+
+/* For Tablet -- END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For Mobile -- START*/
+
+@media screen and (width <=428px) {
+    header {
+        background-color: var(--primary-color);
+    }
+
+    .login-section {
+        margin-top: 0;
+        padding: 0 1rem;
+    }
+
+    .login-form{
+        width: 100%;
+    }
+
+    
+    .login-picture-box {
+        display: none;
+     
+     }
+
+
+}
+
+/* For Mobile -- END*/
